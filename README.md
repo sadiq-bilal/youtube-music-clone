@@ -25,54 +25,33 @@ https://youtube-music-clone-inky.vercel.app/
 ## 📂 Folder Structure
 
 ```
-Photo-Gallery/
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-├── src/
-│   ├── assets/
-│   │   ├── hero.png
-│   │   ├── react.svg
-│   │   └── vite.svg
-│   ├── Components/
-│   │   ├── AlbumCard.jsx
-│   │   ├── EmptyState.jsx
-│   │   ├── Errormessage.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Loader.jsx
-│   │   ├── Modal.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Pagination.jsx
-│   │   ├── PhotoCard.jsx
-│   │   ├── PhotoForm.jsx
-│   │   ├── PhotoGrid.jsx
-│   │   └── SearchBar.jsx
-│   ├── Context/
-│   │   ├── FavoritesContext.jsx
-│   │   └── PhotosContext.jsx
-│   ├── Pages/
-│   │   ├── Albums.jsx
-│   │   ├── Favorites.jsx
-│   │   ├── Home.jsx
-│   │   ├── PhotoDetails.jsx
-│   │   ├── PhotoManager.jsx
-│   │   ├── Photos.jsx
-│   │   └── Profile.jsx
-│   ├── Services/
-│   │   └── photoApi.js
-│   ├── Utils/
-│   │   └── helpers.js
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
+melody/
 ├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
 ├── README.md
+├── index.html
+├── package.json
 ├── vercel.json
-└── vite.config.js
+├── vite.config.js
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    ├── index.css
+    ├── components/
+    │   ├── Card.jsx
+    │   ├── Cover.jsx
+    │   ├── Player.jsx
+    │   ├── Section.jsx
+    │   ├── Sidebar.jsx
+    │   └── SongRow.jsx
+    ├── context/
+    │   └── PlayerContext.jsx
+    ├── data/
+    │   └── music.js
+    └── pages/
+        ├── Detail.jsx
+        ├── Home.jsx
+        ├── Library.jsx
+        └── Search.jsx
 ```
 
 ## 🎯 Learning Outcomes
